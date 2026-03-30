@@ -25,8 +25,10 @@ export default function Header() {
             to="/"
             className="font-bold @6xl:text-4xl text-xl tracking-tight dark:text-white"
           >
-            Seller
-            <span className="text-4xl text-primary">Hub.</span>
+            Cart
+            <span className="font-bold tracking-tight text-primary">
+              .Smart
+            </span>
           </Link>
         </div>
 

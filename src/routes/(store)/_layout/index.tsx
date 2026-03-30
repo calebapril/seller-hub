@@ -1,9 +1,12 @@
-import { createFileRoute } from '@tanstack/react-router'
+import Hero from "#/components/templates/store/homepage/hero";
+import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute('/(store)/_layout/')({ component: App })
+export const Route = createFileRoute("/(store)/_layout/")({ component: App });
 
 function App() {
   return (
-    <div>Hello world</div>
-  )
+    <div className="min-h-screen">
+      <Hero />
+    </div>
+  );
 }
