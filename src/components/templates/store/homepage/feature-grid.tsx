@@ -1,12 +1,13 @@
 import Section from "#/components/base/common/section";
+import FeatureGridContainer from "#/components/containers/store/feature-grid-container";
 
 export default function FeatureGrid() {
   return (
     <Section
       title="Crafting Trends, Inspiring Confidence"
-      description="Explore a world of fashion at StyleLoom, where trends meet affordability."
+      description="Explore a world of fashion at CartSmart, where trends meet affordability."
     >
-      FeatureGrid
+      <FeatureGridContainer />
     </Section>
   );
 }
