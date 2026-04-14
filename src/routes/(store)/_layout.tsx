@@ -1,3 +1,4 @@
+import Brand from "#/components/templates/store/brand"
 import Header from "@/components/base/common/header"
 import { createFileRoute, Outlet } from '@tanstack/react-router'
 
@@ -10,6 +11,7 @@ function RouteComponent() {
     <>
         <Header />
         <Outlet/>
+        <Brand />
     </>
   )
 }
