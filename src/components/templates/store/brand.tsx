@@ -23,6 +23,8 @@ export default function Brand({ className }: BrandProps) {
         items={brandsCategories.map((c) => (
           <MarqueeBadge key={c} label={c} />
         ))}
+        speed="slow"
+        className="border-t-2"
       />
     </section>
   );
