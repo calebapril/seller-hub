@@ -10,7 +10,7 @@ const homeMenu = [
 
 const productsMenu = [
   { label: "Menswear", to: "/products?category=mens" },
-  { label: "Womenswear", to: "/products?category=womens" },
+  { label: "Womenswear", to: "/products?category=women's" },
   { label: "Kidswear", to: "/products?category=kids" },
   { label: "Cakes", to: "/products?category=cakes" },
 ];
